@@ -1,6 +1,6 @@
 package dev.collegue.web.collegue;
 
-public class CollegueResponse {
+public class CollegueResponseNom {
 
 //	FIELDS
 	String nom;
@@ -8,10 +8,10 @@ public class CollegueResponse {
 	String matricule;
 
 //	CONSTRUCTORS
-	public CollegueResponse() {
+	public CollegueResponseNom() {
 	}
 
-	public CollegueResponse(String nom, String matricule) {
+	public CollegueResponseNom(String nom, String matricule) {
 		this.nom = nom;
 		this.matricule = matricule;
 	}
