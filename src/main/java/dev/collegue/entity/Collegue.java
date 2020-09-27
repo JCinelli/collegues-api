@@ -31,10 +31,8 @@ public class Collegue {
 	public Collegue() {
 	}
 
-	public Collegue(Integer id, String matricule, String nom, String prenoms, String email, LocalDate dateDeNaissance,
+	public Collegue(String matricule, String nom, String prenoms, String email, LocalDate dateDeNaissance,
 			String photoUrl) {
-		super();
-		this.id = id;
 		this.matricule = matricule;
 		this.nom = nom;
 		this.prenoms = prenoms;
