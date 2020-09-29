@@ -36,6 +36,12 @@ public class CollegueController {
 
 	}
 
+	@GetMapping("photos")
+	public List<CollegueGalerie> findAllGalerie() {
+		return colServ.getList().stream().map(c -> new CollegueGalerie(c.getMatricule(), c.getPhotoUrl()))
+				.collect(Collectors.toList());
+	}
+
 	/**
 	 * url : [SERVER]/collegue/getMatricule?nom={nom}
 	 * 
