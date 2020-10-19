@@ -93,7 +93,6 @@ public class CollegueController {
 	@DeleteMapping
 	public ResponseEntity<?> remUser(@RequestParam Integer id) {
 		return ResponseEntity.ok(colServ.remUser(id));
-
 	}
 
 }
